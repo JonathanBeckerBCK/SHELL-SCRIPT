@@ -1,0 +1,19 @@
+if [ $# -eq 2 ]
+then
+   let result=$1+$2 
+   echo "A soma é $result"
+else
+   echo "Número de parâmetros inválido. Informe dois números."
+fi
+
+if [ $1 -gt $2 ]
+then
+    echo "Maior valor $1."
+  
+fi
+
+if [ $1 -lt $2 ]
+then
+    echo "Maior valor $2."
+
+fi
