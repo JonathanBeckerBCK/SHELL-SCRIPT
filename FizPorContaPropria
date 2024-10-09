@@ -1,0 +1,21 @@
+#!/system/bin/sh
+
+#This is an example shell script.
+#Use the file manager or the top left menu to create new shell scripts.
+if [ $# -eq 0 ]
+then
+   echo "========================="
+   echo "[ Insira um numero:     ]"
+   echo "[ Insira outro numero:  ]"
+   echo "[ Insira outro numero:  ]"
+   echo "========================="
+   echo -n "N°:"
+   read numa
+   echo -n "N°:"
+   read numb
+   echo -n "N°:"
+   read numc
+   let result=$numa+$numb+$numc
+   echo "O resultado é = $result"
+
+fi
