@@ -1,0 +1,14 @@
+if [ $# -eq 1 ]
+then 
+
+   let result=0
+   while [ $result -le $1 ]
+   do
+
+      echo -n "$result "
+
+      let result=$result+2
+      
+   done
+   echo ""
+fi
